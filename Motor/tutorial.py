@@ -52,3 +52,4 @@ def backwards(delay, steps):
             setStep(Seq[j][0], Seq[j][1], Seq[j][2], Seq[j][3])
             time.sleep(delay)
 
+forward(0.05, 250)
