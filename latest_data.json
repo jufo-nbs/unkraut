@@ -1,0 +1,316 @@
+{
+    "query": {
+        "project": "all",
+        "images": [
+            "5f4fc005481544bc60ab1d72f4080083"
+        ],
+        "organs": [
+            "auto"
+        ],
+        "includeRelatedImages": false,
+        "noReject": false,
+        "type": null
+    },
+    "predictedOrgans": [
+        {
+            "image": "5f4fc005481544bc60ab1d72f4080083",
+            "filename": "./data/Bild2.png",
+            "organ": "habit",
+            "score": 0.60252
+        }
+    ],
+    "language": "en",
+    "preferedReferential": "weeds",
+    "bestMatch": "Arabidopsis thaliana (L.) Heynh.",
+    "results": [
+        {
+            "score": 0.17367,
+            "species": {
+                "scientificNameWithoutAuthor": "Arabidopsis thaliana",
+                "scientificNameAuthorship": "(L.) Heynh.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Arabidopsis",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Arabidopsis"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [
+                    "Thale-cress",
+                    "Mouseear cress",
+                    "Mouse-ear cress"
+                ],
+                "scientificName": "Arabidopsis thaliana (L.) Heynh."
+            },
+            "gbif": {
+                "id": "3052436"
+            },
+            "powo": {
+                "id": "277970-1"
+            }
+        },
+        {
+            "score": 0.06356,
+            "species": {
+                "scientificNameWithoutAuthor": "Lepidium graminifolium",
+                "scientificNameAuthorship": "L.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Lepidium",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Lepidium"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [
+                    "Tall pepperwort",
+                    "Grassleaf pepperweed",
+                    "Grass-leaved pepperwort"
+                ],
+                "scientificName": "Lepidium graminifolium L."
+            },
+            "gbif": {
+                "id": "5376994"
+            },
+            "powo": {
+                "id": "324674-2"
+            }
+        },
+        {
+            "score": 0.01902,
+            "species": {
+                "scientificNameWithoutAuthor": "Capsella bursa-pastoris",
+                "scientificNameAuthorship": "(L.) Medik.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Capsella",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Capsella"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [
+                    "Shepherd's Purse",
+                    "Mother's heart",
+                    "Shephered's purse"
+                ],
+                "scientificName": "Capsella bursa-pastoris (L.) Medik."
+            },
+            "gbif": {
+                "id": "5375388"
+            },
+            "powo": {
+                "id": "30092589-2"
+            }
+        },
+        {
+            "score": 0.01506,
+            "species": {
+                "scientificNameWithoutAuthor": "Berteroa incana",
+                "scientificNameAuthorship": "(L.) DC.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Berteroa",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Berteroa"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [
+                    "Hoary alyssum",
+                    "Hoary alison",
+                    "Hoary false alyssum"
+                ],
+                "scientificName": "Berteroa incana (L.) DC."
+            },
+            "gbif": {
+                "id": "3053522"
+            },
+            "powo": {
+                "id": "278924-1"
+            }
+        },
+        {
+            "score": 0.01268,
+            "species": {
+                "scientificNameWithoutAuthor": "Veronica peregrina",
+                "scientificNameAuthorship": "L.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Veronica",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Veronica"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Plantaginaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Plantaginaceae"
+                },
+                "commonNames": [
+                    "Neckweed",
+                    "Necklaceweed",
+                    "Wandering speedwell"
+                ],
+                "scientificName": "Veronica peregrina L."
+            },
+            "gbif": {
+                "id": "3172104"
+            },
+            "powo": {
+                "id": "812460-1"
+            },
+            "iucn": {
+                "id": "168634",
+                "category": "LC"
+            }
+        },
+        {
+            "score": 0.01004,
+            "species": {
+                "scientificNameWithoutAuthor": "Erysimum cheiranthoides",
+                "scientificNameAuthorship": "L.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Erysimum",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Erysimum"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [
+                    "Treacle Hedge-mustard",
+                    "Treacle mustard",
+                    "Wormseed mustard"
+                ],
+                "scientificName": "Erysimum cheiranthoides L."
+            },
+            "gbif": {
+                "id": "3048266"
+            },
+            "powo": {
+                "id": "307231-2"
+            }
+        },
+        {
+            "score": 0.007,
+            "species": {
+                "scientificNameWithoutAuthor": "Lepidium hirtum",
+                "scientificNameAuthorship": "(L.) Sm.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Lepidium",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Lepidium"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [
+                    "Mediterranean pepperweed"
+                ],
+                "scientificName": "Lepidium hirtum (L.) Sm."
+            },
+            "gbif": {
+                "id": "5376874"
+            },
+            "powo": {
+                "id": "1029925-2"
+            }
+        },
+        {
+            "score": 0.00642,
+            "species": {
+                "scientificNameWithoutAuthor": "Sisymbrium orientale",
+                "scientificNameAuthorship": "L.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Sisymbrium",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Sisymbrium"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [
+                    "Oriental mustard",
+                    "Oriental rocket",
+                    "Eastern rocket"
+                ],
+                "scientificName": "Sisymbrium orientale L."
+            },
+            "gbif": {
+                "id": "3046812"
+            },
+            "powo": {
+                "id": "289595-1"
+            }
+        },
+        {
+            "score": 0.00446,
+            "species": {
+                "scientificNameWithoutAuthor": "Lobularia maritima",
+                "scientificNameAuthorship": "(L.) Desv.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Lobularia",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Lobularia"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [
+                    "Sweet alyssum",
+                    "Sweet alison",
+                    "Sweet-Alice"
+                ],
+                "scientificName": "Lobularia maritima (L.) Desv."
+            },
+            "gbif": {
+                "id": "5373358"
+            },
+            "powo": {
+                "id": "1085072-2"
+            }
+        },
+        {
+            "score": 0.00439,
+            "species": {
+                "scientificNameWithoutAuthor": "Sisymbrium runcinatum",
+                "scientificNameAuthorship": "Lag. ex DC.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Sisymbrium",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Sisymbrium"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [
+                    "Mediterranean rocket"
+                ],
+                "scientificName": "Sisymbrium runcinatum Lag. ex DC."
+            },
+            "gbif": {
+                "id": "3046839"
+            }
+        }
+    ],
+    "version": "2025-08-08 (7.4)",
+    "remainingIdentificationRequests": 495
+}
