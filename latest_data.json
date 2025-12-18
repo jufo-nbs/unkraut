@@ -1,5 +1,304 @@
 {
-    "statusCode": 404,
-    "error": "Not Found",
-    "message": "Species not found"
+    "query": {
+        "project": "all",
+        "images": [
+            "9b407403a6e5bdccabf39ed27592484e"
+        ],
+        "organs": [
+            "auto"
+        ],
+        "includeRelatedImages": false,
+        "noReject": false,
+        "type": null
+    },
+    "predictedOrgans": [
+        {
+            "image": "9b407403a6e5bdccabf39ed27592484e",
+            "filename": "/home/jufo/unkraut/Helpful/plantnet_test/Bild1.png",
+            "organ": "leaf",
+            "score": 0.74635
+        }
+    ],
+    "language": "en",
+    "preferedReferential": "k-world-flora",
+    "bestMatch": "Arabidopsis thaliana (L.) Heynh.",
+    "results": [
+        {
+            "score": 0.40808,
+            "species": {
+                "scientificNameWithoutAuthor": "Arabidopsis thaliana",
+                "scientificNameAuthorship": "(L.) Heynh.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Arabidopsis",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Arabidopsis"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [
+                    "Thale-cress",
+                    "Mouseear cress",
+                    "Mouse-ear cress"
+                ],
+                "scientificName": "Arabidopsis thaliana (L.) Heynh."
+            },
+            "gbif": {
+                "id": "3052436"
+            },
+            "powo": {
+                "id": "277970-1"
+            }
+        },
+        {
+            "score": 0.13744,
+            "species": {
+                "scientificNameWithoutAuthor": "Arabis hirsuta",
+                "scientificNameAuthorship": "(L.) Scop.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Arabis",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Arabis"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [
+                    "Hairy rockcress",
+                    "Fringed Rock-Cress",
+                    "Hairy Rock-Cress"
+                ],
+                "scientificName": "Arabis hirsuta (L.) Scop."
+            },
+            "gbif": {
+                "id": "9202524"
+            },
+            "powo": {
+                "id": "278269-1"
+            }
+        },
+        {
+            "score": 0.04113,
+            "species": {
+                "scientificNameWithoutAuthor": "Arabis alpina",
+                "scientificNameAuthorship": "L.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Arabis",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Arabis"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [
+                    "Alpine rockcress",
+                    "Alpine Eared Rockcress",
+                    "Alpine Wall-cress"
+                ],
+                "scientificName": "Arabis alpina L."
+            },
+            "gbif": {
+                "id": "5375020"
+            },
+            "powo": {
+                "id": "277992-1"
+            }
+        },
+        {
+            "score": 0.03124,
+            "species": {
+                "scientificNameWithoutAuthor": "Arabis sagittata",
+                "scientificNameAuthorship": "(Bertol.) DC.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Arabis",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Arabis"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [],
+                "scientificName": "Arabis sagittata (Bertol.) DC."
+            },
+            "gbif": {
+                "id": "5374838"
+            },
+            "powo": {
+                "id": "278591-1"
+            }
+        },
+        {
+            "score": 0.02098,
+            "species": {
+                "scientificNameWithoutAuthor": "Draba verna",
+                "scientificNameAuthorship": "L.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Draba",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Draba"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [
+                    "Common Whitlowgrass",
+                    "Spring Draba",
+                    "Hairy Whitlowgrass"
+                ],
+                "scientificName": "Draba verna L."
+            },
+            "gbif": {
+                "id": "7473187"
+            },
+            "powo": {
+                "id": "283173-1"
+            }
+        },
+        {
+            "score": 0.01407,
+            "species": {
+                "scientificNameWithoutAuthor": "Arabis planisiliqua",
+                "scientificNameAuthorship": "(Pers.) Rchb.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Arabis",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Arabis"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [],
+                "scientificName": "Arabis planisiliqua (Pers.) Rchb."
+            },
+            "gbif": {
+                "id": "5374933"
+            },
+            "powo": {
+                "id": "278513-1"
+            }
+        },
+        {
+            "score": 0.01392,
+            "species": {
+                "scientificNameWithoutAuthor": "Arabidopsis arenosa",
+                "scientificNameAuthorship": "(L.) Lawalrée",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Arabidopsis",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Arabidopsis"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [
+                    "Sand rockcress",
+                    "Rockcress",
+                    "Sand Rock-Cress"
+                ],
+                "scientificName": "Arabidopsis arenosa (L.) Lawalrée"
+            },
+            "gbif": {
+                "id": "3052509"
+            },
+            "powo": {
+                "id": "277940-1"
+            }
+        },
+        {
+            "score": 0.01233,
+            "species": {
+                "scientificNameWithoutAuthor": "Draba jorullensis",
+                "scientificNameAuthorship": "Kunth",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Draba",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Draba"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [],
+                "scientificName": "Draba jorullensis Kunth"
+            },
+            "gbif": {
+                "id": "3050279"
+            },
+            "powo": {
+                "id": "282705-1"
+            }
+        },
+        {
+            "score": 0.01039,
+            "species": {
+                "scientificNameWithoutAuthor": "Arabis collina",
+                "scientificNameAuthorship": "Ten.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Arabis",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Arabis"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [
+                    "Rosy Cress"
+                ],
+                "scientificName": "Arabis collina Ten."
+            },
+            "gbif": {
+                "id": "5374998"
+            },
+            "powo": {
+                "id": "278114-1"
+            }
+        },
+        {
+            "score": 0.01012,
+            "species": {
+                "scientificNameWithoutAuthor": "Arabis scabra",
+                "scientificNameAuthorship": "All.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Arabis",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Arabis"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [
+                    "Bristol Rock-Cress",
+                    "Bristol rockcress"
+                ],
+                "scientificName": "Arabis scabra All."
+            },
+            "gbif": {
+                "id": "5374852"
+            },
+            "powo": {
+                "id": "278599-1"
+            }
+        }
+    ],
+    "version": "2025-10-08 (7.4)",
+    "remainingIdentificationRequests": 444
 }
