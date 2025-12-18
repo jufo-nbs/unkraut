@@ -1,9 +1,8 @@
 import requests
 import json
 from pprint import pprint
-import api_key
 
-API_KEY = api_key.API_KEY   # Your API key here
+from .api_key import API_KEY   # Your API key here
 PROJECT = "all"; # You can choose a more specific flora, see: /docs/newfloras
 
 class PlantNet:
@@ -11,6 +10,13 @@ class PlantNet:
         self.api_endpoint = f"https://my-api.plantnet.org/v2/identify/{PROJECT}?api-key={API_KEY}"
 
         self.data = { 'organs': ['auto'] }
+
+    def send_multiple_requests(self, lst_images):
+        results = []
+        for img in lst_images:
+            result = self.send_request(img)
+            results.append(result)
+        return results
 
     def send_request(self, image):
         files = [

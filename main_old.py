@@ -1,12 +1,13 @@
+import argparse
+import rpi_drivers.motor
+import rpi_drivers.plantnet
+import rpi_drivers.servo
+# import rpi_drivers.gpio
 from picamera2 import Picamera2
 import io
 import os
 from PIL import Image
 import time
-import argparse
-import rpi_drivers.motor
-import rpi_drivers.plantnet
-import rpi_drivers.servo
 
 # Console Arguments init
 parser = argparse.ArgumentParser(prog = "main.py", 
@@ -19,13 +20,12 @@ motor_drv = rpi_drivers.motor.Motor()
 
 plantnet_drv = rpi_drivers.plantnet.PlantNet()
 
-roboterarm = rpi_drivers.servo.Servo()
+arm = rpi_drivers.servo.Servo()
 
-# Start Camera
+# Start the Cam
 picam2 = Picamera2()
 picam2.start()
 time.sleep(1)
-
 while True:
     data = io.BytesIO()
     picam2.capture_file(data, format='jpeg')
@@ -47,17 +47,11 @@ while True:
         q.save(buf, format='JPEG')
         buf.seek(0)
         quadrants.append(buf)
-
-    '''
-    # Debugging: Save quadrants to files
+    
     output_dir = os.path.join(os.path.dirname(__file__), "captures")
     ts = int(time.time() * 1000)
     for i, q in enumerate((q1, q2, q3, q4), start=1):
         fn = os.path.join(output_dir, f"{ts}_q{i}.jpg")
         q.save(fn, format="JPEG")
-    print("Saved quadrants.")
-    '''
-
-    print(plantnet_drv.send_multiple_requests(quadrants))
-
+    
     break

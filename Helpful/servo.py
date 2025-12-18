@@ -24,4 +24,3 @@ print(2)
 time.sleep(1)
 kit.servo[1].angle = 90
 print(3)
-

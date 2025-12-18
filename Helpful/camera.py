@@ -1,13 +1,36 @@
+from picamera2 import Picamera2
+import io
+import os
+from PIL import Image
 import time
-import picamera2
-import numpy as np
-import cv2
 
-with picamera2.Picamera2() as camera:
-    camera.resolution = (320, 240)
-    camera.framerate = 24
-    time.sleep(2)
-    image = np.empty((240 * 320 * 3,), dtype=np.uint8)
-    camera.capture(image, 'bgr')
-    image = image.reshape((240, 320, 3))
+picam2 = Picamera2()
+picam2.start()
+time.sleep(1)
 
+data = io.BytesIO()
+picam2.capture_file(data, format='jpeg')
+
+data.seek(0)
+img = Image.open(data).convert("RGB")
+w, h = img.size
+mx, my = w // 2, h // 2
+
+q1 = img.crop((0, 0, mx, my))       # top-left
+q2 = img.crop((mx, 0, w, my))       # top-right
+q3 = img.crop((0, my, mx, h))       # bottom-left
+q4 = img.crop((mx, my, w, h))       # bottom-right
+
+# Optionally store quadrants as in-memory JPEGs for further processing
+quadrants = []
+for q in (q1, q2, q3, q4):
+    buf = io.BytesIO()
+    q.save(buf, format='JPEG')
+    buf.seek(0)
+    quadrants.append(buf)
+
+output_dir = os.path.join(os.path.dirname(__file__), "captures")
+ts = int(time.time() * 1000)
+for i, q in enumerate((q1, q2, q3, q4), start=1):
+    fn = os.path.join(output_dir, f"{ts}_q{i}.jpg")
+    q.save(fn, format="JPEG")

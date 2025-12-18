@@ -1,0 +1,312 @@
+{
+    "query": {
+        "project": "all",
+        "images": [
+            "5f4fc005481544bc60ab1d72f4080083"
+        ],
+        "organs": [
+            "auto"
+        ],
+        "includeRelatedImages": false,
+        "noReject": false,
+        "type": null
+    },
+    "predictedOrgans": [
+        {
+            "image": "5f4fc005481544bc60ab1d72f4080083",
+            "filename": "/home/jufo/unkraut/plantnet_test/Bild2.png",
+            "organ": "habit",
+            "score": 0.67452
+        }
+    ],
+    "language": "en",
+    "preferedReferential": "k-world-flora",
+    "bestMatch": "Arabidopsis thaliana (L.) Heynh.",
+    "results": [
+        {
+            "score": 0.1015,
+            "species": {
+                "scientificNameWithoutAuthor": "Arabidopsis thaliana",
+                "scientificNameAuthorship": "(L.) Heynh.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Arabidopsis",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Arabidopsis"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [
+                    "Thale-cress",
+                    "Mouseear cress",
+                    "Mouse-ear cress"
+                ],
+                "scientificName": "Arabidopsis thaliana (L.) Heynh."
+            },
+            "gbif": {
+                "id": "3052436"
+            },
+            "powo": {
+                "id": "277970-1"
+            }
+        },
+        {
+            "score": 0.03524,
+            "species": {
+                "scientificNameWithoutAuthor": "Erysimum repandum",
+                "scientificNameAuthorship": "L.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Erysimum",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Erysimum"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [
+                    "Spreading treacle mustard",
+                    "Treacle mustard",
+                    "Bushy wallflower"
+                ],
+                "scientificName": "Erysimum repandum L."
+            },
+            "gbif": {
+                "id": "3048166"
+            },
+            "powo": {
+                "id": "324654-2"
+            }
+        },
+        {
+            "score": 0.03498,
+            "species": {
+                "scientificNameWithoutAuthor": "Arabis sagittata",
+                "scientificNameAuthorship": "(Bertol.) DC.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Arabis",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Arabis"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [],
+                "scientificName": "Arabis sagittata (Bertol.) DC."
+            },
+            "gbif": {
+                "id": "5374838"
+            },
+            "powo": {
+                "id": "278591-1"
+            }
+        },
+        {
+            "score": 0.03448,
+            "species": {
+                "scientificNameWithoutAuthor": "Chorispora tenella",
+                "scientificNameAuthorship": "(Pall.) DC.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Chorispora",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Chorispora"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [
+                    "Blue mustard",
+                    "Crossflower",
+                    "Musk mustard"
+                ],
+                "scientificName": "Chorispora tenella (Pall.) DC."
+            },
+            "gbif": {
+                "id": "3044349"
+            },
+            "powo": {
+                "id": "281254-1"
+            }
+        },
+        {
+            "score": 0.03166,
+            "species": {
+                "scientificNameWithoutAuthor": "Sisymbrium orientale",
+                "scientificNameAuthorship": "L.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Sisymbrium",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Sisymbrium"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [
+                    "Oriental mustard",
+                    "Oriental rocket",
+                    "Eastern rocket"
+                ],
+                "scientificName": "Sisymbrium orientale L."
+            },
+            "gbif": {
+                "id": "3046812"
+            },
+            "powo": {
+                "id": "289595-1"
+            }
+        },
+        {
+            "score": 0.0161,
+            "species": {
+                "scientificNameWithoutAuthor": "Draba helleriana",
+                "scientificNameAuthorship": "Greene",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Draba",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Draba"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [
+                    "Heller's draba"
+                ],
+                "scientificName": "Draba helleriana Greene"
+            },
+            "gbif": {
+                "id": "3049692"
+            },
+            "powo": {
+                "id": "83594-2"
+            }
+        },
+        {
+            "score": 0.01374,
+            "species": {
+                "scientificNameWithoutAuthor": "Capsella grandiflora",
+                "scientificNameAuthorship": "(Fauché & Chaub.) Boiss.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Capsella",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Capsella"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [],
+                "scientificName": "Capsella grandiflora (Fauché & Chaub.) Boiss."
+            },
+            "gbif": {
+                "id": "5375387"
+            },
+            "powo": {
+                "id": "279976-1"
+            }
+        },
+        {
+            "score": 0.01372,
+            "species": {
+                "scientificNameWithoutAuthor": "Lepidium graminifolium",
+                "scientificNameAuthorship": "L.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Lepidium",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Lepidium"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [
+                    "Tall pepperwort",
+                    "Grassleaf pepperweed",
+                    "Grass-leaved pepperwort"
+                ],
+                "scientificName": "Lepidium graminifolium L."
+            },
+            "gbif": {
+                "id": "5376994"
+            },
+            "powo": {
+                "id": "324674-2"
+            }
+        },
+        {
+            "score": 0.00908,
+            "species": {
+                "scientificNameWithoutAuthor": "Arabis ciliata",
+                "scientificNameAuthorship": "Clairv.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Arabis",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Arabis"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Brassicaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Brassicaceae"
+                },
+                "commonNames": [
+                    "Fringed Rockcress",
+                    "Corymbose rockcress"
+                ],
+                "scientificName": "Arabis ciliata Clairv."
+            },
+            "gbif": {
+                "id": "5374982"
+            },
+            "powo": {
+                "id": "278103-1"
+            }
+        },
+        {
+            "score": 0.00777,
+            "species": {
+                "scientificNameWithoutAuthor": "Veronica peregrina",
+                "scientificNameAuthorship": "L.",
+                "genus": {
+                    "scientificNameWithoutAuthor": "Veronica",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Veronica"
+                },
+                "family": {
+                    "scientificNameWithoutAuthor": "Plantaginaceae",
+                    "scientificNameAuthorship": "",
+                    "scientificName": "Plantaginaceae"
+                },
+                "commonNames": [
+                    "Neckweed",
+                    "Necklaceweed",
+                    "Wandering speedwell"
+                ],
+                "scientificName": "Veronica peregrina L."
+            },
+            "gbif": {
+                "id": "3172104"
+            },
+            "powo": {
+                "id": "812460-1"
+            },
+            "iucn": {
+                "id": "168634",
+                "category": "LC"
+            }
+        }
+    ],
+    "version": "2025-10-08 (7.4)",
+    "remainingIdentificationRequests": 498
+}
