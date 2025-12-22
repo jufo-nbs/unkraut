@@ -36,7 +36,10 @@ Wir verwendeten folgende Produkte:
 
 1. Wenn du alle Komponenten hast, installiere Raspbian und Python 3.13 auf dem Raspberry Pi.
 2. Installiere diese Python-Erweiterung uaf dem Raspberry Pi:
-    * picamera2
+    * `picamera2`
+    * `adafruit_servokit`
+    * `requests`
+    * `smbus`
 3. Lasse [diesen code](/Arduino/main.ino) auf dem Arduino laufen.
 4. Verkabele die Komponenten entsprechend des Schaltplanes und schließe die Kamera an den Pi an.
 5. Klone das Repository auf denRaspberry Pi.
