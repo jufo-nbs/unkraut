@@ -75,5 +75,6 @@ for i in range(5):
     weeds_found = find_weeds(bestMatches)
     if len(weeds_found) > 0:
         treat_weeds(weeds_found)
+        print("All weeds treated")
     else:
         print("No weeds found in this capture.")
