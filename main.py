@@ -12,7 +12,7 @@ import rpi_drivers.servo
 parser = argparse.ArgumentParser(prog = "main.py", 
                                  usage = "python main.py [-h]", 
                                  description = "Intended to run on a Raspberry Pi 5 with AI-HAT and AI-Camera. It detects harmful plants and destroys them.", 
-                                 epilog = "Program written for the german Jugend Forscht-Competition by Niklas Keim", 
+                                 epilog = "Program written for the german Jugend Forscht-Competition", 
                                  formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
 # Driver init
