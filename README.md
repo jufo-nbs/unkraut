@@ -45,3 +45,9 @@ Wir verwendeten folgende Produkte:
 5. Klone das Repository auf denRaspberry Pi.
 6. Erstelle dir bei [plantnet](https://my.plantnet.org/) einen Account un einen API-Key. Erstelle dann eine Datei `api_key.py` im Ordner [rpi_drivers](/rpi_drivers) und speichere deinen API-Key in dieser Datei in der Variable `API_KEY` als String.
 7. Führe die [main.py](/main.py) auf dem Raspberry Pi aus.
+
+## Plant Recognition
+
+The image-based plant species identification service used, is based on the Pl@ntNet recognition API, regularly updated and accessible through the site https://my.plantnet.org/
+
+![Plantnet Logo](https://my.plantnet.org/images/powered-by-plantnet-dark.svg)
