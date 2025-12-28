@@ -9,13 +9,13 @@ class Arduino:
         self.pumpValue = False
 
     def write(self):
-        message = 0x00
+        message = 0
         if self.motorValue == True and self.pumpValue == True:
-            message = 0x11
+            message = 3
         elif self.pumpValue == True and self.motorValue == False:
-            message = 0x10
+            message = 2
         elif self.motorValue == True and self.pumpValue == False:
-            message = 0x01
+            message = 1
 
         self.bus.write_byte(self.addr, message)
 
