@@ -17,7 +17,7 @@ class Arduino:
         elif self.motorValue == True and self.pumpValue == True:
             message = 0x11
 
-        self.bus.write(self.addr, message)
+        self.bus.write_byte(self.addr, message)
 
     def motor(self, output: bool):
         self.motorValue = output
