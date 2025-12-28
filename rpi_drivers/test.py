@@ -1,4 +1,4 @@
-import motor
+import rpi_drivers.arduino as arduino
 import plantnet
 import gpio
 import servo

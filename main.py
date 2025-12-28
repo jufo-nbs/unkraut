@@ -4,7 +4,7 @@ import os
 from PIL import Image
 import time
 import argparse
-import rpi_drivers.motor
+import rpi_drivers.arduino
 import rpi_drivers.plantnet
 import rpi_drivers.servo
 
@@ -16,7 +16,7 @@ parser = argparse.ArgumentParser(prog = "main.py",
                                  formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
 # Driver init
-motor_drv = rpi_drivers.motor.Motor()
+arduino_drv = rpi_drivers.arduino.Arduino()
 
 plantnet_drv = rpi_drivers.plantnet.PlantNet()
 

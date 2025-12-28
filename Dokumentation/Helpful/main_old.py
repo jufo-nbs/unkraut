@@ -1,5 +1,5 @@
 import argparse
-import rpi_drivers.motor
+import rpi_drivers.arduino
 import rpi_drivers.plantnet
 import rpi_drivers.servo
 # import rpi_drivers.gpio
@@ -16,7 +16,7 @@ parser = argparse.ArgumentParser(prog = "main.py",
                                  epilog = "Program written for the 'Jugend Forscht'-Competition by Niklas Keim", 
                                  formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
-motor_drv = rpi_drivers.motor.Motor()
+motor_drv = rpi_drivers.arduino.Arduino()
 
 plantnet_drv = rpi_drivers.plantnet.PlantNet()
 
