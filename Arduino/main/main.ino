@@ -33,6 +33,6 @@ void setup() {
 
 void loop() {
   digitalWrite(MOTOR_PIN, valueMotor);
-  digitalWrite(PUMP_PIN, valuePump)
+  digitalWrite(PUMP_PIN, valuePump);
   delay(100);
 }

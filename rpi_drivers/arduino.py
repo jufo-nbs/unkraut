@@ -10,12 +10,12 @@ class Arduino:
 
     def write(self):
         message = 0x00
-        if self.pumpValue == True:
-            message = 0x10
-        elif self.motorValue == True:
-            message = 0x01
-        elif self.motorValue == True and self.pumpValue == True:
+        if self.motorValue == True and self.pumpValue == True:
             message = 0x11
+        elif self.pumpValue == True and self.motorValue == False:
+            message = 0x10
+        elif self.motorValue == True and self.pumpValue == False:
+            message = 0x01
 
         self.bus.write_byte(self.addr, message)
 
