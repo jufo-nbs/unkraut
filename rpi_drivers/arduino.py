@@ -4,7 +4,7 @@ import time
 class Arduino:
     def __init__(self, address=0x2f):
         self.addr = address # bus address
-        self.bus = SMBus(1) # indicates /dev/ic2-1
+        self.bus = SMBus(1) # indicates /dev/i2c-1
         self.motorValue = False
         self.pumpValue = False
 
