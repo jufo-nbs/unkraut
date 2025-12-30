@@ -32,7 +32,7 @@ Wir verwendeten folgende Produkte:
 
 ![Schaltplan](/Dokumentation/schaltplan.png)
 
-## Rebuild the Projekt
+## Zu Hause nachbauen
 
 1. Wenn du alle Komponenten hast, installiere Raspbian und Python 3.13 auf dem Raspberry Pi.
 2. Installiere diese Python-Erweiterung uaf dem Raspberry Pi:
